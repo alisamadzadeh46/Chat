@@ -12,9 +12,11 @@ Simple chat app use django and redis
 
 4. Install the dependencies using `pip install -r requirements.txt`
 
-5. Migrate existing db tables by running `python manage.py migrate`
+5. docker(you need install docker in ypur pc) in linux or mac `sudo docker run -p 6379:6379 -d redis:5`
 
-6. Run the django development server using `python manage.py runserver`
+6. Migrate existing db tables by running `python manage.py migrate`
+
+7. Run the django development server using `python manage.py runserver`
 
 
 ![alt text](https://alisamadzadeh.ir/chat/Screenshot_2021-05-03%20Chat.png)
